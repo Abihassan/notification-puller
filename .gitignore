@@ -73,3 +73,47 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Notification Puller - Project Specific
+# --------------------------------------
+
+# Android generated build files
+android/app/build/
+android/build/
+android/.cxx/
+android/app/.cxx/
+
+# React Native generated files
+.expo/
+.metro/
+*.tgz
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Generated Android packages
+*.apk
+*.aab
+
+# Release signing keys
+*.jks
+*.keystore
+
+# Notification exports - potentially sensitive
+*.csv
+*.xlsx
+*.json
+
+# Local notification database
+*.db
+*.db-shm
+*.db-wal
+
+# Temporary files
+tmp/
+temp/
